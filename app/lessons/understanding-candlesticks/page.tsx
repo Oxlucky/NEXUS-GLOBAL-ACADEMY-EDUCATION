@@ -49,7 +49,7 @@ export default function UnderstandingCandlesticks() {
         <p className="eyebrow">FOUNDATIONS / LESSON 02</p>
         <h1>Understanding<br/><span>Candlesticks</span></h1>
         <p>Learn what a candle records, how its body and wicks are formed, and why the close matters inside the NEXUS trading process.</p>
-        <PrintButton />
+        <div className="lesson-actions"><PrintButton /><a className="print-button download-pdf" href="/pdfs/understanding-candlesticks.pdf" download>Download lesson PDF</a></div>
       </section>
 
       <section className="lesson-section">
