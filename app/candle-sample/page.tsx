@@ -59,31 +59,31 @@ export default function CandleSamplePage() {
               border: "1px solid #263630",
               borderRadius: 18,
               background: "#101a17",
-              padding: "22px 18px 20px",
+              padding: "18px 16px 18px",
               textAlign: "center",
             }}
           >
             <svg
               viewBox="0 0 260 300"
               role="img"
-              aria-label="Single bullish candlestick with green body and upper and lower wicks"
-              style={{ display: "block", width: "100%", maxWidth: 300, margin: "0 auto" }}
+              aria-label="Single bullish candlestick with deep green body and upper and lower wicks"
+              style={{ display: "block", width: "100%", maxWidth: 220, margin: "0 auto" }}
             >
               <defs>
                 <linearGradient id="bullBody" x1="0" y1="0" x2="1" y2="0">
-                  <stop offset="0%" stopColor="#16a36a" />
-                  <stop offset="48%" stopColor="#35d18b" />
-                  <stop offset="100%" stopColor="#15945f" />
+                  <stop offset="0%" stopColor="#07512f" />
+                  <stop offset="48%" stopColor="#0b663b" />
+                  <stop offset="100%" stopColor="#064326" />
                 </linearGradient>
               </defs>
               {[55, 105, 155, 205, 255].map((y) => (
                 <line key={y} x1="18" y1={y} x2="242" y2={y} stroke="#263630" strokeWidth="1" />
               ))}
-              <line x1="130" y1="36" x2="130" y2="264" stroke="#36c987" strokeWidth="5" strokeLinecap="round" />
-              <rect x="91" y="91" width="78" height="118" rx="2" fill="url(#bullBody)" />
-              <line x1="94" y1="94" x2="166" y2="94" stroke="#8af0bd" strokeWidth="2" opacity=".6" />
+              <line x1="130" y1="36" x2="130" y2="264" stroke="#0a5934" strokeWidth="4" strokeLinecap="round" />
+              <rect x="98" y="91" width="64" height="118" rx="1.5" fill="url(#bullBody)" />
+              <line x1="100" y1="93" x2="160" y2="93" stroke="#287b50" strokeWidth="1.5" opacity=".55" />
             </svg>
-            <h2 style={{ color: "#43d994", fontSize: 17, margin: "10px 0 4px" }}>Bullish Candle</h2>
+            <h2 style={{ color: "#16804b", fontSize: 17, margin: "8px 0 4px" }}>Bullish Candle</h2>
             <p style={{ color: "#9ba9a2", fontSize: 13, margin: 0 }}>Close above open</p>
           </section>
 
@@ -92,31 +92,31 @@ export default function CandleSamplePage() {
               border: "1px solid #263630",
               borderRadius: 18,
               background: "#101a17",
-              padding: "22px 18px 20px",
+              padding: "18px 16px 18px",
               textAlign: "center",
             }}
           >
             <svg
               viewBox="0 0 260 300"
               role="img"
-              aria-label="Single bearish candlestick with red body and upper and lower wicks"
-              style={{ display: "block", width: "100%", maxWidth: 300, margin: "0 auto" }}
+              aria-label="Single bearish candlestick with deep red body and upper and lower wicks"
+              style={{ display: "block", width: "100%", maxWidth: 220, margin: "0 auto" }}
             >
               <defs>
                 <linearGradient id="bearBody" x1="0" y1="0" x2="1" y2="0">
-                  <stop offset="0%" stopColor="#c83d4b" />
-                  <stop offset="48%" stopColor="#f0646d" />
-                  <stop offset="100%" stopColor="#bd3443" />
+                  <stop offset="0%" stopColor="#781a25" />
+                  <stop offset="48%" stopColor="#9b202e" />
+                  <stop offset="100%" stopColor="#64131e" />
                 </linearGradient>
               </defs>
               {[55, 105, 155, 205, 255].map((y) => (
                 <line key={y} x1="18" y1={y} x2="242" y2={y} stroke="#263630" strokeWidth="1" />
               ))}
-              <line x1="130" y1="36" x2="130" y2="264" stroke="#ed5964" strokeWidth="5" strokeLinecap="round" />
-              <rect x="91" y="91" width="78" height="118" rx="2" fill="url(#bearBody)" />
-              <line x1="94" y1="94" x2="166" y2="94" stroke="#ffb1b5" strokeWidth="2" opacity=".55" />
+              <line x1="130" y1="36" x2="130" y2="264" stroke="#861b28" strokeWidth="4" strokeLinecap="round" />
+              <rect x="98" y="91" width="64" height="118" rx="1.5" fill="url(#bearBody)" />
+              <line x1="100" y1="93" x2="160" y2="93" stroke="#b64a54" strokeWidth="1.5" opacity=".5" />
             </svg>
-            <h2 style={{ color: "#f2767e", fontSize: 17, margin: "10px 0 4px" }}>Bearish Candle</h2>
+            <h2 style={{ color: "#a72b37", fontSize: 17, margin: "8px 0 4px" }}>Bearish Candle</h2>
             <p style={{ color: "#9ba9a2", fontSize: 13, margin: 0 }}>Close below open</p>
           </section>
         </div>
@@ -130,7 +130,7 @@ export default function CandleSamplePage() {
             margin: "28px auto 0",
           }}
         >
-          First visual draft · Tell us what to adjust before using this style in academy lessons.
+          Updated visual draft · Tell us what to adjust before using this style in academy lessons.
         </p>
       </div>
     </main>
