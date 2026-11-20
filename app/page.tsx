@@ -94,7 +94,7 @@ export default function Home() {
               <span className="number">{num}</span>
               <h3>{title}</h3>
               <p>{desc}</p>
-              <a className="coming" href={num === "02" ? "/lessons/understanding-candlesticks" : "#"}>{num === "02" ? "OPEN LESSON →" : "MODULE READY TO BUILD"}</a>
+              <a className="coming" href={num === "02" ? "/lessons/understanding-candlesticks" : num === "03" ? "/lessons/market-structure" : "#"}>{num === "02" || num === "03" ? "OPEN LESSON →" : "MODULE READY TO BUILD"}</a>
             </article>
           ))}
         </div>
