@@ -5,3 +5,5 @@
 .lesson-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.download-pdf{text-decoration:none;display:inline-block}
 
 .structure-diagram{max-width:700px;margin:28px 0;padding:18px;background:#F5F8F5;border-radius:12px}.structure-diagram svg{display:block;width:100%;height:auto}.structure-label{font-size:12px;font-weight:800;fill:#17251D}
+
+.session-candle-panel{max-width:700px;margin:26px 0;padding:18px;background:#F5F8F5;border-radius:12px}.session-candle-panel svg{display:block;width:100%;height:auto}.session-card{max-width:700px;margin:26px 0;padding:22px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.1);border-radius:14px}.session-card>span{font-size:10px;letter-spacing:1.8px;color:#62c184;font-weight:900}.session-card p,.session-grid p{color:#b9cabe;line-height:1.75;font-size:14px}.session-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:24px 0}.session-grid article{padding:20px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.1);border-radius:12px}.session-grid strong{color:#62c184}@media(max-width:600px){.session-grid{grid-template-columns:1fr}}
