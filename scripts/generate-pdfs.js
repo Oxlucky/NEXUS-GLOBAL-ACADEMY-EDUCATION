@@ -13,7 +13,7 @@ const MUTED = "#64736A";
 const LIGHT = "#EAF3ED";
 const RED = "#B52A2A";
 
-const doc = new PDFDocument({ size: "A4", margins: { top: 58, bottom: 58, left: 58, right: 58 }, info: {
+const doc = new PDFDocument({ size: "A4", margins: { top: 58, bottom: 25, left: 58, right: 58 }, info: {
   Title: "Understanding Candlesticks - NEXUS GLOBAL ACADEMY",
   Author: "NEXUS GLOBAL ACADEMY",
   Subject: "Beginner trading education"
