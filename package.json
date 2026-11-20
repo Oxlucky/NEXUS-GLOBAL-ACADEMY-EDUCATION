@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "npm run generate:pdf && next build",
+    "start": "next start",
+    "generate:pdf": "node scripts/generate-pdfs.js"
   },
   "dependencies": {
     "next": "14.2.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "pdfkit": "^0.17.2"
   },
   "devDependencies": {
     "typescript": "^5.6.3",
