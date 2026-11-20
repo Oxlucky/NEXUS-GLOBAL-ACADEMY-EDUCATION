@@ -1,3 +1,5 @@
+import PrintButton from "../../components/PrintButton";
+
 const lessons = [
   {title:"Open", text:"The price where the candle begins."},
   {title:"High", text:"The highest price reached during the candle."},
@@ -47,7 +49,7 @@ export default function UnderstandingCandlesticks() {
         <p className="eyebrow">FOUNDATIONS / LESSON 02</p>
         <h1>Understanding<br/><span>Candlesticks</span></h1>
         <p>Learn what a candle records, how its body and wicks are formed, and why the close matters inside the NEXUS trading process.</p>
-        <button className="print-button" onClick={() => window.print()}>Save lesson as PDF</button>
+        <PrintButton />
       </section>
 
       <section className="lesson-section">
