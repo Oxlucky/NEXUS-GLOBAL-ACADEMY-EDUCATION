@@ -86,7 +86,7 @@ export default function Home() {
           {[
             ["01","Trading Foundations","Learn the NEXUS approach and the sequence behind a valid setup."],
             ["02","Understanding Candlesticks","Learn what candle bodies, wicks and closes can tell you about price behaviour."],
-            ["03","Market Structure","Study directional context using the structure visible in price."],
+            ["03","Session Trends & Short-Term Candle Behaviour","Read short trends, pullbacks and candle confirmation during trading sessions."],
             ["04","Support & Resistance","Learn how important technical areas interact with candle confirmation."],
             ["05","Candle Confirmation","Understand why a candle appearing is not the same as having confirmation."]
           ].map(([num,title,desc]) => (
@@ -94,7 +94,7 @@ export default function Home() {
               <span className="number">{num}</span>
               <h3>{title}</h3>
               <p>{desc}</p>
-              <a className="coming" href={num === "02" ? "/lessons/understanding-candlesticks" : num === "03" ? "/lessons/market-structure" : "#"}>{num === "02" || num === "03" ? "OPEN LESSON →" : "MODULE READY TO BUILD"}</a>
+              <a className="coming" href={num === "02" ? "/lessons/understanding-candlesticks" : num === "03" ? "/lessons/session-trends" : "#"}>{num === "02" || num === "03" ? "OPEN LESSON →" : "MODULE READY TO BUILD"}</a>
             </article>
           ))}
         </div>
