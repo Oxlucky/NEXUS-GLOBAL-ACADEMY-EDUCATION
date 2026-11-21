@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "npm run generate:pdf && next build",
     "start": "next start",
-    "generate:pdf": "node scripts/generate-pdfs.js && node scripts/generate-session-trends-pdf.js"
+    "generate:pdf": "node scripts/generate-pdfs.js && node scripts/generate-session-trends-pdf.js && node scripts/generate-wickless-candle-part-2-pdf.js"
   },
   "dependencies": {
     "next": "14.2.5",
